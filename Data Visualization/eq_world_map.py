@@ -18,7 +18,7 @@ with open(readable_file, 'w') as f:
     json.dump(all_eq_data, f, indent=4)"""
 
 all_eq_dicts = all_eq_data['features']
-# Загаловок графика из файла.
+#Заголовок графика из файла.
 title = all_eq_data['metadata']['title']
 mags, lons, lats, hover_texts = [], [], [], []
 for eq_dict in all_eq_dicts:
